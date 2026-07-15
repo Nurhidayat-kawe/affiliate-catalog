@@ -6,6 +6,10 @@ export async function GET() {
   const result = await db.execute("SELECT * FROM products ORDER BY created_at DESC");
   const rows = result.rows.map((row) => ({
     ...row,
+    id: Number(row.id),
+    price: Number(row.price),
+    rating: Number(row.rating),
+    clicks: Number(row.clicks),
     images: typeof row.images === "string" ? JSON.parse(row.images || "[]") : [],
   }));
   return NextResponse.json(rows);

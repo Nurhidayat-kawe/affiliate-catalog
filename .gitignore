@@ -6,3 +6,5 @@ local.db
 *.db
 .DS_Store
 npm-debug.log*
+
+.vercel

@@ -6,7 +6,14 @@ export const dynamic = "force-dynamic";
 async function getProducts() {
   await initDB();
   const result = await db.execute("SELECT * FROM products ORDER BY created_at DESC");
-  return result.rows;
+  return result.rows.map((row) => ({
+    ...row,
+    id: Number(row.id),
+    price: Number(row.price),
+    rating: Number(row.rating),
+    clicks: Number(row.clicks),
+    images: typeof row.images === "string" ? JSON.parse(row.images || "[]") : [],
+  }));
 }
 
 export default async function Home() {
@@ -66,7 +73,7 @@ export default async function Home() {
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {products.map((product) => (
-              <ProductCard key={product.id} product={product as any} />
+              <ProductCard key={String(product.id)} product={product as any} />
             ))}
           </div>
         )}

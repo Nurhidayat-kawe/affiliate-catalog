@@ -131,3 +131,392 @@ Warning: Only plain objects can be passed to Client Components from Server Compo
 Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
   <... product={{id: 24, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ○ Compiling /admin ...
+ ✓ Compiled /admin in 6.6s (473 modules)
+ GET /admin 200 in 10829ms
+ ✓ Compiled in 3.4s (241 modules)
+ ○ Compiling /api/auth ...
+ ✓ Compiled /api/auth in 1161ms (268 modules)
+ POST /api/auth 401 in 4048ms
+ POST /api/auth 401 in 55ms
+ POST /api/auth 401 in 74ms
+ POST /api/auth 401 in 58ms
+ POST /api/auth 401 in 66ms
+ ✓ Compiled in 3.3s (509 modules)
+ ✓ Compiled in 812ms (268 modules)
+ ✓ Compiled in 1833ms (473 modules)
+ ✓ Compiled in 1955ms (241 modules)
+ ○ Compiling /api/auth ...
+ ✓ Compiled /api/auth in 2.3s (268 modules)
+ POST /api/auth 200 in 8352ms
+ GET /api/auth 401 in 39ms
+ POST /api/auth 200 in 42ms
+ GET /api/auth 200 in 54ms
+ GET /admin 200 in 1322ms
+ POST /api/auth 200 in 44ms
+ ○ Compiling /admin/dashboard ...
+ ✓ Compiled /admin/dashboard in 3.8s (501 modules)
+ GET /api/auth 200 in 227ms
+ GET /api/auth 200 in 178ms
+ ○ Compiling /api/products ...
+ ✓ Compiled /api/products in 1463ms (274 modules)
+ GET /api/products 200 in 1879ms
+ GET /api/products 200 in 199ms
+ ○ Compiling /api/products/[id] ...
+ ✓ Compiled /api/products/[id] in 1601ms (266 modules)
+ PUT /api/products/13 200 in 8339ms
+ ○ Compiling /api/products ...
+ ✓ Compiled /api/products in 991ms (268 modules)
+ GET /api/products 200 in 1200ms
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 13, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 14, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 15, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 16, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 17, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 18, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 19, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 20, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 21, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 22, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 23, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 24, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ GET / 200 in 3454ms
+ ○ Compiling /api/click ...
+ ✓ Compiled /api/click in 768ms (270 modules)
+ POST /api/click 200 in 913ms
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 13, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 14, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 15, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 16, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 17, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 18, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 19, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 20, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 21, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 22, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 23, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 24, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ GET / 200 in 722ms
+ GET /admin/dashboard 200 in 525ms
+ ○ Compiling /api/auth ...
+ ✓ Compiled /api/auth in 1329ms (274 modules)
+ GET /api/auth 200 in 4806ms
+ ○ Compiling /api/products ...
+ ✓ Compiled /api/products in 1495ms (276 modules)
+ GET /api/auth 200 in 2665ms
+ GET /api/products 200 in 2719ms
+ GET /api/products 200 in 50ms
+ ✓ Compiled in 2s (236 modules)
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 13, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 14, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 15, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 16, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 17, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 18, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 19, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 20, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 21, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 22, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 23, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 24, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ✓ Compiled in 11s (243 modules)
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 13, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 14, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 15, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 16, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 17, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 18, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 19, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 20, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 21, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 22, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 23, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 24, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ✓ Compiled in 10.4s (479 modules)
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 13, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 14, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 15, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 16, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 17, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 18, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 19, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 20, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 21, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 22, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 23, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 24, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 13, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 14, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 15, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 16, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 17, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 18, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 19, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 20, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 21, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 22, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 23, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 24, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ⨯ components\ProductCard.tsx (193:24) @ map
+ ⨯ TypeError: allImages.map is not a function
+    at ProductCard (./components/ProductCard.tsx:354:39)
+digest: "2275894399"
+[0m [90m 191 |[39m         {totalItems [33m>[39m [35m1[39m [33m&&[39m ([0m
+[0m [90m 192 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m"absolute bottom-2 left-1/2 -translate-x-1/2 z-10 flex gap-1.5"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 193 |[39m             {allImages[33m.[39mmap((_[33m,[39m idx) [33m=>[39m ([0m
+[0m [90m     |[39m                        [31m[1m^[22m[39m[0m
+[0m [90m 194 |[39m               [33m<[39m[33mbutton[39m[0m
+[0m [90m 195 |[39m                 key[33m=[39m{idx}[0m
+[0m [90m 196 |[39m                 onClick[33m=[39m{() [33m=>[39m goToSlide(idx)}[0m
+ GET / 500 in 4451ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ○ Compiling /api/auth ...
+ ✓ Compiled /api/auth in 10.4s (479 modules)
+ ✓ Compiled (515 modules)
+ GET /api/auth 200 in 9587ms
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 13, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 14, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 15, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 16, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 17, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 18, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 19, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 20, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 21, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 22, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 23, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 24, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 13, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 14, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 15, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 16, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 17, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 18, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 19, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 20, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 21, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 22, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 23, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Warning: Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <... product={{id: 24, name: ..., image_url: ..., price: ..., affiliate_link: ..., rating: ..., clicks: ..., marketplace: ..., created_at: ..., images: ..., video_url: ...}}>
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ ⨯ components\ProductCard.tsx (193:24) @ map
+ ⨯ TypeError: allImages.map is not a function
+    at ProductCard (./components/ProductCard.tsx:354:39)
+digest: "2275894399"
+[0m [90m 191 |[39m         {totalItems [33m>[39m [35m1[39m [33m&&[39m ([0m
+[0m [90m 192 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m"absolute bottom-2 left-1/2 -translate-x-1/2 z-10 flex gap-1.5"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 193 |[39m             {allImages[33m.[39mmap((_[33m,[39m idx) [33m=>[39m ([0m
+[0m [90m     |[39m                        [31m[1m^[22m[39m[0m
+[0m [90m 194 |[39m               [33m<[39m[33mbutton[39m[0m
+[0m [90m 195 |[39m                 key[33m=[39m{idx}[0m
+[0m [90m 196 |[39m                 onClick[33m=[39m{() [33m=>[39m goToSlide(idx)}[0m
+ ⨯ components\ProductCard.tsx (193:24) @ map
+ ⨯ TypeError: allImages.map is not a function
+    at ProductCard (./components/ProductCard.tsx:354:39)
+digest: "2275894399"
+[0m [90m 191 |[39m         {totalItems [33m>[39m [35m1[39m [33m&&[39m ([0m
+[0m [90m 192 |[39m           [33m<[39m[33mdiv[39m className[33m=[39m[32m"absolute bottom-2 left-1/2 -translate-x-1/2 z-10 flex gap-1.5"[39m[33m>[39m[0m
+[0m[31m[1m>[22m[39m[90m 193 |[39m             {allImages[33m.[39mmap((_[33m,[39m idx) [33m=>[39m ([0m
+[0m [90m     |[39m                        [31m[1m^[22m[39m[0m
+[0m [90m 194 |[39m               [33m<[39m[33mbutton[39m[0m
+[0m [90m 195 |[39m                 key[33m=[39m{idx}[0m
+[0m [90m 196 |[39m                 onClick[33m=[39m{() [33m=>[39m goToSlide(idx)}[0m
+ GET /api/auth 200 in 1038ms
+ GET / 500 in 7705ms
+ ○ Compiling /api/products ...
+ ✓ Compiled /api/products in 2.6s (274 modules)
+ GET /api/products 200 in 5232ms
+ GET /api/products 200 in 197ms
+ GET /api/products 200 in 79ms
