@@ -1,6 +1,6 @@
 import db, { initDB } from "@/lib/db";
-import ProductCard from "@/components/ProductCard";
 import SocialLinks from "@/components/SocialLinks";
+import ProductGrid from "@/components/ProductGrid";
 
 export const dynamic = "force-dynamic";
 
@@ -37,10 +37,7 @@ export default async function Home() {
                 <p className="text-xs text-gray-500">Produk Shopee Terbaik</p>
               </div>
             </div>
-            <a
-              href="/admin"
-              className="text-sm text-gray-500 hover:text-shopee transition-colors"
-            >
+            <a href="/admin" className="text-sm text-gray-500 hover:text-shopee transition-colors">
               Admin
             </a>
           </div>
@@ -51,9 +48,7 @@ export default async function Home() {
       <div className="bg-gradient-to-r from-shopee to-orange-400 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-              Produk Pilihan Terbaik
-            </h2>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Produk Pilihan Terbaik</h2>
             <p className="text-orange-100 text-lg max-w-2xl mx-auto mb-6">
               Koleksi produk affiliate Shopee dengan harga terbaik dan rating tinggi
             </p>
@@ -62,23 +57,9 @@ export default async function Home() {
         </div>
       </div>
 
-      {/* Products Grid */}
+      {/* Products */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        {products.length === 0 ? (
-          <div className="text-center py-20">
-            <svg className="w-24 h-24 text-gray-300 mx-auto mb-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
-            </svg>
-            <h3 className="text-xl font-semibold text-gray-600 mb-2">Belum Ada Produk</h3>
-            <p className="text-gray-400">Produk akan muncul setelah ditambahkan melalui admin</p>
-          </div>
-        ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            {products.map((product) => (
-              <ProductCard key={String(product.id)} product={product as any} />
-            ))}
-          </div>
-        )}
+        <ProductGrid initialProducts={products as any} />
       </main>
 
       {/* Footer */}
@@ -90,9 +71,7 @@ export default async function Home() {
             <SocialLinks variant="footer" />
           </div>
           <div className="border-t border-gray-800 mt-6 pt-6 text-center">
-            <p className="text-sm text-gray-500">
-              &copy; {new Date().getFullYear()} Affiliate Catalog. All rights reserved.
-            </p>
+            <p className="text-sm text-gray-500">&copy; {new Date().getFullYear()} Affiliate Catalog. All rights reserved.</p>
           </div>
         </div>
       </footer>
