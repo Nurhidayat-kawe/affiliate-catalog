@@ -405,6 +405,7 @@ export default function Dashboard() {
                 <thead className="bg-gray-50 border-b border-gray-100">
                   <tr>
                     <th className="text-left px-6 py-3 text-xs font-semibold text-gray-500 uppercase">Produk</th>
+                    <th className="text-left px-6 py-3 text-xs font-semibold text-gray-500 uppercase hidden md:table-cell">Kategori</th>
                     <th className="text-left px-6 py-3 text-xs font-semibold text-gray-500 uppercase hidden md:table-cell">Harga</th>
                     <th className="text-left px-6 py-3 text-xs font-semibold text-gray-500 uppercase hidden lg:table-cell">Media</th>
                     <th className="text-left px-6 py-3 text-xs font-semibold text-gray-500 uppercase hidden lg:table-cell">Rating</th>
@@ -427,6 +428,9 @@ export default function Dashboard() {
                               <p className="text-xs text-gray-400">{product.marketplace}</p>
                             </div>
                           </div>
+                        </td>
+                        <td className="px-6 py-4 hidden md:table-cell">
+                          <span className="bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full text-xs font-medium">{product.category || "Lainnya"}</span>
                         </td>
                         <td className="px-6 py-4 hidden md:table-cell">
                           <span className="price-format text-sm">{formatPrice(product.price)}</span>
