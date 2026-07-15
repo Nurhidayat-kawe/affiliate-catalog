@@ -37,9 +37,6 @@ export default async function Home() {
                 <p className="text-xs text-gray-500">Produk Shopee Terbaik</p>
               </div>
             </div>
-            <a href="/admin" className="text-sm text-gray-500 hover:text-shopee transition-colors">
-              Admin
-            </a>
           </div>
         </div>
       </header>
