@@ -14,6 +14,7 @@ interface Product {
   rating: number;
   clicks: number;
   marketplace: string;
+  category: string;
 }
 
 interface FormData {
@@ -25,7 +26,10 @@ interface FormData {
   affiliate_link: string;
   rating: number;
   marketplace: string;
+  category: string;
 }
+
+const CATEGORIES = ["Elektronik", "Handphone", "Komputer", "Aksesoris", "Audio", "Gaming", "Rumah", "Fashion", "Kecantikan", "Olahraga", "Lainnya"];
 
 const emptyForm: FormData = {
   name: "",
@@ -36,6 +40,7 @@ const emptyForm: FormData = {
   affiliate_link: "",
   rating: 5,
   marketplace: "Shopee",
+  category: "Elektronik",
 };
 
 export default function Dashboard() {
@@ -110,6 +115,7 @@ export default function Dashboard() {
       affiliate_link: product.affiliate_link,
       rating: product.rating,
       marketplace: product.marketplace,
+      category: product.category || "Lainnya",
     });
     setEditingId(product.id);
     setShowForm(true);
@@ -350,13 +356,22 @@ export default function Dashboard() {
                     placeholder="https://shopee.co.id/..." />
                 </div>
 
-                {/* Marketplace */}
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">Marketplace</label>
-                  <select value={form.marketplace} onChange={(e) => setForm({ ...form, marketplace: e.target.value })}
-                    className="w-full px-4 py-2.5 border border-gray-200 rounded-xl focus:ring-2 focus:ring-shopee focus:border-transparent">
-                    <option value="Shopee">Shopee</option>
-                  </select>
+                {/* Category & Marketplace */}
+                <div className="grid grid-cols-2 gap-4">
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">Kategori</label>
+                    <select value={form.category} onChange={(e) => setForm({ ...form, category: e.target.value })}
+                      className="w-full px-4 py-2.5 border border-gray-200 rounded-xl focus:ring-2 focus:ring-shopee focus:border-transparent">
+                      {CATEGORIES.map((c) => <option key={c} value={c}>{c}</option>)}
+                    </select>
+                  </div>
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-1">Marketplace</label>
+                    <select value={form.marketplace} onChange={(e) => setForm({ ...form, marketplace: e.target.value })}
+                      className="w-full px-4 py-2.5 border border-gray-200 rounded-xl focus:ring-2 focus:ring-shopee focus:border-transparent">
+                      <option value="Shopee">Shopee</option>
+                    </select>
+                  </div>
                 </div>
 
                 {/* Buttons */}

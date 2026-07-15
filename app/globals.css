@@ -58,3 +58,6 @@ input:focus, textarea:focus {
   ring: 2px;
   ring-color: #EE4D2D;
 }
+
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }

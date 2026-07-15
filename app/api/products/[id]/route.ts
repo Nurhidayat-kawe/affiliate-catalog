@@ -7,7 +7,7 @@ export async function PUT(
 ) {
   await initDB();
   const body = await request.json();
-  const { name, image_url, images, video_url, price, affiliate_link, rating, marketplace } = body;
+  const { name, image_url, images, video_url, price, affiliate_link, rating, marketplace, category } = body;
 
   const allImages = Array.isArray(images) ? images : [];
   if (image_url && !allImages.includes(image_url)) {
@@ -15,7 +15,7 @@ export async function PUT(
   }
 
   await db.execute({
-    sql: `UPDATE products SET name=?, image_url=?, images=?, video_url=?, price=?, affiliate_link=?, rating=?, marketplace=? WHERE id=?`,
+    sql: `UPDATE products SET name=?, image_url=?, images=?, video_url=?, price=?, affiliate_link=?, rating=?, marketplace=?, category=? WHERE id=?`,
     args: [
       name,
       image_url,
@@ -25,6 +25,7 @@ export async function PUT(
       affiliate_link,
       Number(rating) || 0,
       marketplace || "Shopee",
+      category || "Lainnya",
       Number(params.id),
     ],
   });

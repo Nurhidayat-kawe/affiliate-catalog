@@ -20,11 +20,12 @@ export async function initDB() {
       rating REAL DEFAULT 0,
       clicks INTEGER DEFAULT 0,
       marketplace TEXT DEFAULT 'Shopee',
+      category TEXT DEFAULT 'Lainnya',
       created_at DATETIME DEFAULT CURRENT_TIMESTAMP
     )
   `);
 
-  // Migration: add columns if missing
   try { await db.execute("ALTER TABLE products ADD COLUMN images TEXT DEFAULT '[]'"); } catch {}
   try { await db.execute("ALTER TABLE products ADD COLUMN video_url TEXT DEFAULT ''"); } catch {}
+  try { await db.execute("ALTER TABLE products ADD COLUMN category TEXT DEFAULT 'Lainnya'"); } catch {}
 }

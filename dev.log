@@ -632,3 +632,10 @@ digest: "2275894399"
  ✓ Compiled in 2.1s (244 modules)
  ✓ Compiled in 1470ms (244 modules)
  ✓ Compiled in 4.6s (486 modules)
+ ✓ Compiled in 5.4s (486 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 2766ms
+ ○ Compiling /api/products ...
+ ✓ Compiled /api/products in 2.7s (270 modules)
+ GET /api/products 200 in 7320ms
+ GET /api/products 200 in 196ms
