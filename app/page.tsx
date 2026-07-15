@@ -1,5 +1,6 @@
 import db, { initDB } from "@/lib/db";
 import ProductCard from "@/components/ProductCard";
+import SocialLinks from "@/components/SocialLinks";
 
 export const dynamic = "force-dynamic";
 
@@ -53,9 +54,10 @@ export default async function Home() {
             <h2 className="text-3xl sm:text-4xl font-bold mb-4">
               Produk Pilihan Terbaik
             </h2>
-            <p className="text-orange-100 text-lg max-w-2xl mx-auto">
+            <p className="text-orange-100 text-lg max-w-2xl mx-auto mb-6">
               Koleksi produk affiliate Shopee dengan harga terbaik dan rating tinggi
             </p>
+            <SocialLinks variant="hero" />
           </div>
         </div>
       </div>
@@ -80,11 +82,18 @@ export default async function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-white border-t border-gray-100 mt-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <p className="text-center text-sm text-gray-400">
-            &copy; {new Date().getFullYear()} Affiliate Catalog. All rights reserved.
-          </p>
+      <footer className="bg-gray-900 text-white mt-12">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+          <div className="text-center mb-6">
+            <h3 className="text-lg font-bold mb-2">Ikuti Saya</h3>
+            <p className="text-gray-400 text-sm mb-4">Follow untuk update produk terbaru dan tips belanja hemat</p>
+            <SocialLinks variant="footer" />
+          </div>
+          <div className="border-t border-gray-800 mt-6 pt-6 text-center">
+            <p className="text-sm text-gray-500">
+              &copy; {new Date().getFullYear()} Affiliate Catalog. All rights reserved.
+            </p>
+          </div>
         </div>
       </footer>
     </div>

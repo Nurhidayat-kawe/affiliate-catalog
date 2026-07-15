@@ -622,3 +622,5 @@ digest: "2275894399"
  ⚠ Fast Refresh had to perform a full reload due to a runtime error.
  GET / 200 in 938ms
  ✓ Compiled in 1381ms (243 modules)
+ ✓ Compiled in 2.3s (243 modules)
+ ✓ Compiled in 5.1s (465 modules)
