@@ -639,3 +639,20 @@ digest: "2275894399"
  ✓ Compiled /api/products in 2.7s (270 modules)
  GET /api/products 200 in 7320ms
  GET /api/products 200 in 196ms
+ ✓ Compiled in 2.3s (240 modules)
+ ✓ Compiled in 2.7s (246 modules)
+ ✓ Compiled in 1436ms (246 modules)
+ ✓ Compiled in 1298ms (246 modules)
+ ✓ Compiled in 1107ms (246 modules)
+ ✓ Compiled in 1557ms (246 modules)
+ ✓ Compiled in 5.4s (486 modules)
+ ✓ Compiled in 2.7s (486 modules)
+ ✓ Compiled in 2.2s (486 modules)
+ ✓ Compiled in 4.4s (486 modules)
+ ○ Compiling /api/products ...
+ ✓ Compiled /api/products in 10.6s (516 modules)
+ GET /api/products 200 in 10997ms
+ GET /api/products 200 in 200ms
+ GET /api/products 200 in 49ms
+ GET /api/products 200 in 54ms
+ ✓ Compiled in 2.3s (246 modules)

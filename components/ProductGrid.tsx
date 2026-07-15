@@ -61,7 +61,7 @@ export default function ProductGrid({ initialProducts }: { initialProducts: Prod
 
   return (
     <>
-      <SearchBar onResults={handleSearch} />
+      <SearchBar onSearch={handleSearch} />
 
       {/* Category Tabs */}
       <div className="flex gap-2 overflow-x-auto pb-2 mb-6 -mx-1 px-1 scrollbar-hide">
