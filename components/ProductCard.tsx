@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect, useCallback } from "react";
 
 interface Product {
   id: number;
@@ -20,10 +20,27 @@ export default function ProductCard({ product }: { product: Product }) {
   const [showVideo, setShowVideo] = useState(false);
   const [imgErrors, setImgErrors] = useState<Record<number, boolean>>({});
   const touchStartX = useRef(0);
+  const autoPlayRef = useRef<NodeJS.Timeout | null>(null);
+  const [paused, setPaused] = useState(false);
 
   const allImages = product.images?.length ? product.images : [product.image_url];
   const hasVideo = !!product.video_url;
   const totalItems = allImages.length + (hasVideo ? 1 : 0);
+  const canAutoPlay = allImages.length > 1;
+
+  const resetAutoPlay = useCallback(() => {
+    if (autoPlayRef.current) clearInterval(autoPlayRef.current);
+    if (canAutoPlay && !paused && !showVideo) {
+      autoPlayRef.current = setInterval(() => {
+        setCurrentImg((prev) => (prev < allImages.length - 1 ? prev + 1 : 0));
+      }, 5000);
+    }
+  }, [canAutoPlay, paused, showVideo, allImages.length]);
+
+  useEffect(() => {
+    resetAutoPlay();
+    return () => { if (autoPlayRef.current) clearInterval(autoPlayRef.current); };
+  }, [resetAutoPlay, currentImg, showVideo]);
 
   const formatPrice = (price: number) =>
     new Intl.NumberFormat("id-ID", { style: "currency", currency: "IDR", minimumFractionDigits: 0 }).format(price);
@@ -106,7 +123,7 @@ export default function ProductCard({ product }: { product: Product }) {
   return (
     <div className="bg-white rounded-xl shadow-md overflow-hidden card-hover border border-gray-100">
       {/* Image / Video Carousel */}
-      <div className="relative aspect-square bg-gray-100 select-none" onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd}>
+      <div className="relative aspect-square bg-gray-100 select-none" onTouchStart={handleTouchStart} onTouchEnd={handleTouchEnd} onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)}>
         {showVideo && hasVideo ? (
           <div className="w-full h-full">
             <iframe
