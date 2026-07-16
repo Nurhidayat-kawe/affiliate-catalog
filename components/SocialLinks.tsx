@@ -48,7 +48,26 @@ const socials = [
   },
 ];
 
-export default function SocialLinks({ variant = "footer" }: { variant?: "footer" | "hero" }) {
+export default function SocialLinks({ variant = "footer" }: { variant?: "footer" | "hero" | "header" }) {
+  if (variant === "header") {
+    return (
+      <div className="flex items-center gap-1.5">
+        {socials.map((s) => (
+          <a
+            key={s.name}
+            href={s.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-8 h-8 bg-white/20 hover:bg-white/35 rounded-lg flex items-center justify-center text-white transition-all hover:scale-110"
+            title={s.name}
+          >
+            {s.icon}
+          </a>
+        ))}
+      </div>
+    );
+  }
+
   if (variant === "hero") {
     return (
       <div className="flex items-center justify-center gap-3">

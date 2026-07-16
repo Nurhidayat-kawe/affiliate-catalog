@@ -659,3 +659,14 @@ digest: "2275894399"
  ✓ Compiled in 4.2s (486 modules)
  ✓ Compiled in 3.7s (486 modules)
  ✓ Compiled in 15.8s (486 modules)
+ GET / 200 in 1095ms
+ GET /admin/dashboard 200 in 465ms
+ ○ Compiling /api/auth ...
+ ✓ Compiled /api/auth in 6.2s (276 modules)
+ GET /api/auth 200 in 10325ms
+ ✓ Compiled in 3.8s (486 modules)
+ ✓ Compiled in 1027ms (246 modules)
+ ✓ Compiled in 2.2s (486 modules)
+ ✓ Compiled in 2.8s (486 modules)
+ ✓ Compiled in 13.4s (486 modules)
+ ✓ Compiled in 3.7s (486 modules)

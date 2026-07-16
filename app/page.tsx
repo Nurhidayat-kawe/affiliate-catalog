@@ -23,36 +23,24 @@ export default async function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Header */}
-      <header className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
+      <header className="bg-gradient-to-r from-shopee to-orange-400 shadow-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-shopee to-orange-400 rounded-xl flex items-center justify-center">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="flex items-center justify-between h-14">
+            <div className="flex items-center gap-2.5">
+              <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
+                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                 </svg>
               </div>
               <div>
-                <h1 className="text-xl font-bold text-gray-900">Affiliate Catalog</h1>
-                <p className="text-xs text-gray-500">Produk Shopee Terbaik</p>
+                <h1 className="text-base font-bold text-white leading-tight">Nurreview</h1>
+                <p className="text-[10px] text-orange-100 leading-tight">Rekomendasi Produk Terbaik</p>
               </div>
             </div>
+            <SocialLinks variant="header" />
           </div>
         </div>
       </header>
-
-      {/* Hero */}
-      <div className="bg-gradient-to-r from-shopee to-orange-400 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="text-center">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">Produk Pilihan Terbaik</h2>
-            <p className="text-orange-100 text-lg max-w-2xl mx-auto mb-6">
-              Koleksi produk affiliate Shopee dengan harga terbaik dan rating tinggi
-            </p>
-            <SocialLinks variant="hero" />
-          </div>
-        </div>
-      </div>
 
       {/* Products */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
